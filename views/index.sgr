@@ -1,0 +1,9 @@
+extends(src='layout.sgr')
+  block(name='content')
+    #app
+      h1(v-text='msg')
+      medium-editor-plus(:text='msg')
+      medium-editor-plus(:text='msg')
+      medium-editor(:text='msg')
+      medium-editor(:text='msg')
+      medium-editor-plus(:text='msg')
